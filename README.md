@@ -69,6 +69,6 @@ time ./helloworld
 ```
 ![execution-time](/resources/img/execution-time.png "Tempo de execução")
 
-As duas primeiras execuções são com a aplicação compilada em JIT e as duas últimas são com a aplicação compilada em AOT.
-Melhor tempo com JIT: 0,078
+As duas primeiras execuções são com a aplicação compilada em JIT e as duas últimas são com a aplicação compilada em AOT.  
+Melhor tempo com JIT: 0,078  
 Melhor tempo com AOT: 0,013
