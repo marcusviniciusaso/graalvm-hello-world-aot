@@ -2,7 +2,7 @@
 
 ## O que é GraalVM?
 
-GraalVM é uma JDK de alto desempenho que pode, além de melhorar o desempenho, diminuir o consumo de recursos de aplicações Java e outras linguagems que rodam na JVM. [Quarkus](https://quarkus.io/) utiliza recursos da GraalVM para criar aplicações nativas de alto desempenho.
+GraalVM é uma JDK de alto desempenho que pode, além de melhorar o desempenho, diminuir o consumo de recursos de aplicações Java e outras linguagens que rodam na JVM. [Quarkus](https://quarkus.io/) utiliza recursos da GraalVM para criar aplicações nativas de alto desempenho.
 
 ## Compilação just-in-time (JIT)
 Na compilação just-in-time a aplicação Java é compilada para bytecode. É possível rodar esse bytecode em qualquer plataforma com JVM. Porém, quando o usuário acessa, a aplicação passa por uma segunda compilação para o código de máquina. Dessa forma, há um processamento adicional para interpretar o bytecode para a plataforma atual. É a compilação padrão da JDK.
